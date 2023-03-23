@@ -12,7 +12,7 @@
 
         Console.WriteLine();    // just for spacing purpose
 
-
+        displayingShapesWithAsterisks.displayArrow();
     }
     // end of Main method
 
@@ -50,7 +50,17 @@
 
     void displayArrow()
     {
+        Console.WriteLine("Displaying Arrow\n");
 
+        Console.WriteLine("  *  ");
+        Console.WriteLine(" *** ");
+        Console.WriteLine("*****");
+        Console.WriteLine("  *  ");
+        Console.WriteLine("  *  ");
+        Console.WriteLine("  *  ");
+        Console.WriteLine("  *  ");
+        Console.WriteLine("  *  ");
+        Console.WriteLine("  *  ");
     }
     // end of displayArrow method
 
