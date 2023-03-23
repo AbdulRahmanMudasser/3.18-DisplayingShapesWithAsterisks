@@ -13,6 +13,12 @@
         Console.WriteLine();    // just for spacing purpose
 
         displayingShapesWithAsterisks.displayArrow();
+
+        Console.WriteLine();    // just for spacing purpose
+
+        displayingShapesWithAsterisks.displayDiamond();
+
+        Console.WriteLine();    // just for spacing purpose
     }
     // end of Main method
 
@@ -66,6 +72,19 @@
 
     void displayDiamond() 
     {
+        Console.WriteLine("Displaying Diamond\n");
+
+        Console.WriteLine("     *     ");
+        Console.WriteLine("    * *    ");
+        Console.WriteLine("   *   *   ");
+        Console.WriteLine("  *     *  ");
+        Console.WriteLine(" *       * ");
+        Console.WriteLine("*         *");
+        Console.WriteLine(" *       * ");
+        Console.WriteLine("  *     *  ");
+        Console.WriteLine("   *   *   ");
+        Console.WriteLine("    * *    ");
+        Console.WriteLine("     *     ");
 
     }
     // end of displayDiamond method
